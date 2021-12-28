@@ -10,11 +10,10 @@ import { products } from '../products';
 export class ProductListComponent {
   products = products;
 
-  share() {
+share() {
     window.alert('The product has been shared!');
   }
 }
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
